@@ -1,5 +1,7 @@
 # Link download phần mềm Weka:
 
-https://sourceforge.net/projects/weka/
+Nhấp vào một trong hai link bên dưới để download:
 
-[Google Drive](https://drive.google.com/drive/folders/19QN45d4RgPmayFOMLRm6YJrJIHQbj93q)
+[SourceForge](https://sourceforge.net/projects/weka/)
+
+[Google Drive](https://drive.google.com/file/d/1MjjUajYNmpnpbXO-EAVERI3w9shzxPIO/view?usp=sharing)
