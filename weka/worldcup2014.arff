@@ -2,14 +2,14 @@
 % Comments go after a '%' sign.
 %
 %
-% Relation: World Cup 2014
+% Relation: WorldCup2014
 %
 %
 % Attributes: 3     Instances: 32
 %
 %
 
-@relation World Cup 2014
+@relation WorldCup2014
 
 @attribute 'Country' {'algeria','argentina','australia','belgium','bosnia and herzegovina','brazil','cameroon','chile','colombia','costa rica','croatia','ecuador','england','france','germany','ghana','greece','honduras','iran','italy','ivory coast','japan','mexico','netherlands','nigeria','portugal','russia','south korea','spain','switzerland','united states','uruguay'}
 @attribute 'Group' {'h','f','b','a','c','d','e','g'}
