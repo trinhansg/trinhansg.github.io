@@ -36,7 +36,7 @@
 	<div style="position:fixed;bottom:0px;right:15px;">		
 		<ul class="pagination pagination-sm">
 			<li class="disabled"><a href="#">Page</a></li>
-			<li><a id="page1" href="javascript:load_page(1);">1</a></li>
+			<li><a href="javascript:load_page(1);">1</a></li>
 			<li><a href="javascript:load_page(2);">2</a></li>
 		</ul>
 	</div>
@@ -44,13 +44,15 @@
 </body>
 </html>
 <script> 
+$("#content").load("page1.html", function() {
+  //alert( "Load was performed." );
+});
 $("#header").load("../header.html", function() {
   //alert( "Load was performed." );
 });
 $("#footer").load("../footer.html", function() {
   //alert( "Load was performed." );
 });
-$("#page1").click();
 
 function load_page(index){
 	$("#content").load("page"+index+".html", function() {
