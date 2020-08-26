@@ -16,9 +16,7 @@
 <body>
 
 <div class="container">
-	<div class="row">
-		<div class="col-sm-12" id="header"></div>
-	</div>
+	<div class="row" id="header"></div>
 	<div class="row">
 		<div class="col-sm-12">			
 			<h2 style="text-align:center">
@@ -51,20 +49,4 @@
 </div>
 </body>
 </html>
-<script> 
-$("#content").load("page1.html", function() {
-  //alert( "Load was performed." );
-});
-$("#header").load("../header.html", function() {
-  //alert( "Load was performed." );
-});
-$("#footer").load("../footer.html", function() {
-  //alert( "Load was performed." );
-});
-
-function load_page(index){
-	$("#content").load("page"+index+".html", function() {
-	  //alert( "Load was performed." );
-	});
-}
-</script>
+<script src="https://trinhansg.github.io/scripts/trinhansg.js"></script>
