@@ -1,3 +1,21 @@
+<style>
+/*https://www.w3schools.com/howto/howto_css_aspect_ratio.asp*/
+.image-container {
+	width: 100%;
+	padding-top: 75%; /* 4:3 Aspect Ratio (divide 3 by 4 = 0.75) */
+	position: relative; /* If you want text inside of it */
+}
+
+/* If you want text inside of the container */
+.image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	border:1px solid;
+}
+</style>
 <div class="col-sm-12">			
 	<h2 style="text-align:center;margin-top:0px;margin-bottom:0px;">
 		Mạng Tư Vấn Học Thuật Dành Cho Các Nhà Khoa Học Việt Nam - VnScholar		
@@ -5,26 +23,38 @@
 	<hr/>
 </div>
 <div class="col-sm-6">
-	<img src="h26.png" width="100%" style="border:1px solid"/>
+	<div class="image-container">
+		<img src="h26.png" class="image"/>
+	</div>
 	<h4 style="text-align:center">Mạng Tư Vấn Học Thuật Dành Cho Các Nhà Khoa Học Việt Nam</h4>
 </div>
 <div class="col-sm-6">
-	<img src="h27.png" width="100%" style="border:1px solid"/>
+	<div class="image-container">
+		<img src="h27.png" class="image"/>
+	</div>
 	<h4 style="text-align:center">Danh Sách Nhà Khoa Học Tương Đồng Về Lĩnh Vực Nghiên Cứu</h4>
 </div>
 <div class="col-sm-6">
-	<img src="h28.png" width="100%" style="border:1px solid"/>
+	<div class="image-container">
+		<img src="h28.png" class="image"/>
+	</div>
 	<h4 style="text-align:center">Danh Sách Nhà Khoa Học Có Thể Cộng Tác</h4>
 </div>
 <div class="col-sm-6">
-	<img src="h29.png" width="100%" style="border:1px solid"/>
+	<div class="image-container">
+		<img src="h29.png" class="image"/>
+	</div>
 	<h4 style="text-align:center">Danh Sách Nhà Khoa Học Có Thể Cộng Tác</h4>
 </div>
 <div class="col-sm-6">
-	<img src="h30.png" width="100%" style="border:1px solid"/>
+	<div class="image-container">
+		<img src="h30.png" class="image"/>
+	</div>
 	<h4 style="text-align:center">Danh Sách Nhà Khoa Học Có Thể Cộng Tác</h4>
 </div>
 <div class="col-sm-6">
-	<img src="h31.png" width="100%" style="border:1px solid"/>
+	<div class="image-container">
+		<img src="h31.png" class="image"/>
+	</div>
 	<h4 style="text-align:center">Danh Sách Nhà Khoa Học Có Thể Cộng Tác</h4>
 </div>
