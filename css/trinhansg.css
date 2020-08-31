@@ -21,6 +21,9 @@
 .aspect-ratio-8-5 {
 	padding-top: 62.5%; /* 8:5 Aspect Ratio (divide 5 by 8 = 0.625) */
 }
+.aspect-ratio-4-1 {
+	padding-top: 25%; /* 4:1 Aspect Ratio (divide 1 by 4 = 0.25) */
+}
 .aspect-ratio-object {
 	position: absolute;	
 	left: 0;
