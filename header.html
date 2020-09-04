@@ -20,9 +20,6 @@
 }
 /* For mobile laptop: */
 @media only screen and (min-width: 768px){
-	.text-marquee{
-		/*top: -50px;*/
-	}
 	.mobile-show{
 		display: none;
 	}
@@ -33,6 +30,12 @@
 </style>
 <div class="col-xs-12>
 	<a href="https://trinhansg.github.io/">
+		<div class="aspect-ratio-container mobile-show" style="padding-top: 44%">			
+			<img class="aspect-ratio-object" src="https://trinhansg.github.io/banner-mobile.jpg" style="border: none;"/>
+		</div>
+		<marquee class="text-marquee mobile-show">
+			Consulting, training, and cooperation on: Artificial Intelligence, Fintech, Data Analytics, Business Analytics...
+		</marquee>
 		<div class="aspect-ratio-container laptop-show" style="padding-top: 22%">			
 			<img class="aspect-ratio-object" src="https://trinhansg.github.io/banner-laptop.jpg" style="border: none;" />
 			<marquee class="text-marquee">
