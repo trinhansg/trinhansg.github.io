@@ -1,28 +1,29 @@
 <style>
-.text-marquee-mobile {
-	position:relative;
+/* For mobile phones: */
+.text-marquee{
+	position: relative;
+	top: 0px;
 	font-size: 1.5em;
 	color: brown;
 	text-shadow: 1px 1px 1px #000000;
 }
-.text-marquee-laptop {
-	position:relative;
-	top:-60px;
-	font-size: 2em;
-	color: brown;
-	text-shadow: 1px 1px 1px #000000;
+/* For mobile laptop: */
+@media only screen and (min-width: 768px){
+	.text-marquee{
+		top: -60px;
+		font-size: 2em;
+	}
 }
 </style>
 <div class="col-xs-12 hidden-sm hidden-md hidden-lg">  
 	<a href="https://trinhansg.github.io/"><img class="img-responsive" src="https://trinhansg.github.io/banner-mobile.jpg" /></a><!--Mobile-->
-	<marquee class="text-marquee-mobile">
-	Consulting, training, and cooperation on: Artificial Intelligence, Fintech, Data Analytics, Business Analytics...
-	</marquee>
 </div>
 <div class="col-sm-12 hidden-xs">
 	<a href="https://trinhansg.github.io/"><img class="img-responsive" src="https://trinhansg.github.io/banner-laptop.jpg" /></a><!--Laptop-->
-	<marquee class="text-marquee-laptop">
-	Consulting, training, and cooperation on: Artificial Intelligence, Fintech, Data Analytics, Business Analytics...
+</div>
+<div class="col-sm-12">
+	<marquee class="text-marquee">
+		Consulting, training, and cooperation on: Artificial Intelligence, Fintech, Data Analytics, Business Analytics...
 	</marquee>
 </div>
 <div style="clear:both"></div><!-- To be able click on link on mobile -->
