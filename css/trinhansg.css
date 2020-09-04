@@ -41,6 +41,11 @@
 	text-shadow: 1px 1px 1px #000000;
 }
 .text-marquee-mobile{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 15px;
+	width: 100%;
 }
 .text-marquee-laptop{
 	position: absolute;
