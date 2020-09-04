@@ -1,47 +1,12 @@
-<style>
-/* For mobile phones: */
-.text-marquee{
-	position: absolute;
-	bottom: 0px;
-	font-size: 1.5em;
-	color: brown;
-	text-shadow: 1px 1px 1px #000000;
-	
-	left: 0;
-	right: 0;
-	bottom: 15px;
-	width: 100%;
-}
-.text-marquee-mobile{
-	font-size: 1.5em;
-	color: brown;
-	text-shadow: 1px 1px 1px #000000;
-}
-.mobile-show{
-	display: block;
-}
-.laptop-show{
-	display: none;
-}
-/* For mobile laptop: */
-@media only screen and (min-width: 768px){
-	.mobile-show{
-		display: none;
-	}
-	.laptop-show{
-		display: block;
-	}
-}
-</style>
 <div class="col-xs-12>
 	<a href="https://trinhansg.github.io/">
-		<div class="aspect-ratio-container mobile-show" style="padding-top: 44%">			
+		<div class="aspect-ratio-container mobile-show-only" style="padding-top: 44%">			
 			<img class="aspect-ratio-object" src="https://trinhansg.github.io/banner-mobile.jpg" style="border: none;"/>
 		</div>
-		<marquee class="text-marquee-mobile mobile-show">
+		<marquee class="text-marquee-mobile mobile-show-only">
 			Consulting, training, and cooperation on: Artificial Intelligence, Fintech, Data Analytics, Business Analytics...
 		</marquee>
-		<div class="aspect-ratio-container laptop-show" style="padding-top: 22%">			
+		<div class="aspect-ratio-container laptop-show-only" style="padding-top: 22%">			
 			<img class="aspect-ratio-object" src="https://trinhansg.github.io/banner-laptop.jpg" style="border: none;" />
 			<marquee class="text-marquee">
 				Consulting, training, and cooperation on: Artificial Intelligence, Fintech, Data Analytics, Business Analytics...
