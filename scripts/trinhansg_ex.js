@@ -26,6 +26,6 @@ var images = [];
 function preload_images(num_of_images){
 	for (var i = 1; i <= num_of_images; i++) {
         images[i] = new Image();
-        images[i].src = "h${i}.jpg";
+        images[i].src = `h${i}.jpg`;
     }
 }
