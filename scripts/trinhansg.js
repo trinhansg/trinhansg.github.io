@@ -13,7 +13,8 @@ function load_page(index){
 	});
 }
 function load_page_ex(index){
-	$("#content").load(`page.html`, function() {
-	  $("#imgpath").attr("href",`page${index}`)
+	$("#imgpath").attr("href",`page${index}`)
+	$("#content").load(`page1.html`, function() {
+	  
 	});
 }
