@@ -8,7 +8,12 @@ $("#footer").load("https://trinhansg.github.io/footer.html", function() {
   //alert( "Load was performed." );
 });
 function load_page(index){
-	$("#content").load("page"+index+".html", function() {
+	$("#content").load(`page${index}.html`, function() {
 	  //alert( "Load was performed." );
+	});
+}
+function load_page_ex(index){
+	$("#content").load(`page.html`, function() {
+	  $("#imgpath").attr("href",`page${index}`)
 	});
 }

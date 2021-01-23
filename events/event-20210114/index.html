@@ -5,9 +5,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-	<link rel="stylesheet" href="https://trinhansg.github.io/css/trinhansg.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://trinhansg.github.io/css/trinhansg.css">
+	<base href="page1" id="imgpath">
 	<style>
 		.col-sm-6{
 			padding-bottom: 30px;
@@ -28,130 +29,19 @@
 			<hr/>
 		</div>
 	</div>
-	<div class="row">
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h1.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h2.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h3.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h4.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h5.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h6.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h7.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h8.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h9.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h10.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h11.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h12.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h13.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h14.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h15.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h16.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h17.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h18.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h19.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h20.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h21.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h22.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h23.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-		<div class="col-sm-6">
-			<div class="aspect-ratio-container aspect-ratio-4-3">
-				<img src="h24.jpg" class="aspect-ratio-object"/>
-			</div>			
-		</div>
-	</div>
+	<div class="row" id="content"></div>	
 	<div class="row" id="footer"></div>
+	<div style="position:fixed;bottom:0px;right:15px;">		
+		<ul class="pagination pagination-sm">
+			<li class="disabled"><a href="#">Page</a></li>
+			<li><a href="javascript:load_page_ex(1);">1</a></li>
+			<li><a href="javascript:load_page_ex(2);">2</a></li>
+			<li><a href="javascript:load_page_ex(3);">3</a></li>
+			<li><a href="javascript:load_page_ex(4);">4</a></li>
+			<li><a href="javascript:load_page_ex(5);">5</a></li>
+		</ul>
+	</div>
 </div>
 </body>
 </html>
-<script src="https://trinhansg.github.io/scripts/trinhansg.js"></script>
+<script src="https://trinhansg.github.io/scripts/trinhansg.js"></script>	
