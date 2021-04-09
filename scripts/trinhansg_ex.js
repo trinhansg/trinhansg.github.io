@@ -7,8 +7,8 @@ $("#footer").load("https://trinhansg.github.io/footer.html", function() {
 function load_page(index){
 	$("#content").load(`page${index}.html`, function() {});
 }
-function load_page_ex(index){
-	page_size = 8
+function load_page_ex(index,page_size = 8){
+	//page_size = 8
 	start_index = (index - 1)*page_size + 1
 	end_index = start_index + page_size
 	content = ""

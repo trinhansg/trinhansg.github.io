@@ -9,6 +9,9 @@
 .aspect-ratio-16-9 {
 	padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
+.aspect-ratio-9-16 {
+	padding-top: 1.8%; /* 9:16 Aspect Ratio (divide 16 by 9 = 1.8) */
+}
 .aspect-ratio-4-3 {
 	padding-top: 75%; /* 4:3 Aspect Ratio (divide 3 by 4 = 0.75) */
 }

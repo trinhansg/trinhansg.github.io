@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tri Nhan</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://trinhansg.github.io/css/trinhansg.css">	
+	<style>
+		.col-sm-6{
+			padding-bottom: 30px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<div class="row" id="header"></div>
+	<div class="row">
+		<div class="col-sm-12">			
+			<h2 style="text-align:center;margin-top:0px;margin-bottom:0px;">
+				Bài Thu Hoạch
+				<br/>				
+			</h2>
+			<hr/>
+		</div>
+	</div>
+	<div class="row" id="content"></div>	
+	<div class="row" id="footer"></div>
+<!--	
+	<div style="position:fixed;bottom:0px;right:15px;">		
+		<ul class="pagination pagination-sm">
+			<li class="disabled"><a href="#">Page</a></li>
+			<li><a href="javascript:load_page_ex(1);">1</a></li>
+			<li><a href="javascript:load_page_ex(2);">2</a></li>
+			<li><a href="javascript:load_page_ex(3);">3</a></li>
+			<li><a href="javascript:load_page_ex(4);">4</a></li>
+			<li><a href="javascript:load_page_ex(5);">5</a></li>
+		</ul>
+	</div>
+-->	
+</div>
+</body>
+</html>
+<script src="https://trinhansg.github.io/scripts/trinhansg_ex.js"></script>	
+<script>
+function load_page_ex1(index,page_size = 8){
+	//page_size = 8
+	start_index = (index - 1)*page_size + 1
+	end_index = start_index + page_size
+	content = ""
+	for(i=start_index;i<end_index;i++){
+		content +=
+			`<div class="col-sm-6">
+				<div class="aspect-ratio-container aspect-ratio-9-16">
+					<img src="h${i}.jpg" class="aspect-ratio-object"/>
+				</div>			
+			</div>`
+	}
+	$("#content").html(content);
+}
+
+load_page_ex1(1,2)
+preload_images(2)
+</script>
