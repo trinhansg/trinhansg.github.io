@@ -1,5 +1,5 @@
 <xml xmlns:o="urn:schemas-microsoft-com:office:office">
- <o:MainFile HRef="../kieu.htm"/>
+ <o:MainFile HRef="../page1.html"/>
  <o:File HRef="themedata.thmx"/>
  <o:File HRef="colorschememapping.xml"/>
  <o:File HRef="image001.png"/>
@@ -32,6 +32,6 @@
  <o:File HRef="image027.jpg"/>
  <o:File HRef="image028.png"/>
  <o:File HRef="image029.jpg"/>
- <o:File HRef="header.htm"/>
+ <o:File HRef="header.html"/>
  <o:File HRef="filelist.xml"/>
 </xml>
