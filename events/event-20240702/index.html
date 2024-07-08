@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Tri Nhan</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://trinhansg.github.io/css/trinhansg.css">
+	<style>
+		.col-sm-6, .col-sm-3{
+			padding-top: 30px;
+		}
+	
+		/*https://www.w3schools.com/howto/howto_css_responsive_iframes.asp*/
+		.iframe-container {
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			padding-top: 56.25%;  /*16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+		}
+
+		/* Then style the iframe to fit in the container div with full height and width */
+		.responsive-iframe {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			height: 100%;
+		}
+		/*for small images*/
+		.container9-16 {
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			padding-top: 211.11%;  /*9:16 Aspect Ratio (divide 16 by 9 = 2.1111) */
+		}
+
+		/* Then style the iframe to fit in the container div with full height and width */
+		.content {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+			width: 100%;
+			height: 100%;
+		}
+		
+		.container18-16 {
+			position: relative;
+			overflow: hidden;
+			width: 100%;
+			padding-top: 88.88%;  /*9:16 Aspect Ratio (divide 16 by 18 = 0.8888) */
+		}
+	</style>
+</head>
+<body>
+
+<div class="container">
+	<div class="row" id="header"></div>
+	<div class="row">
+		<div class="col-sm-12">			
+			<h2 style="text-align:center;margin-top:0px;margin-bottom:0px;">
+				Seminar: Scientific Research &amp; Scientific Publication with the Support of AI <br/>at Ho Chi Minh City University of Law<br/>
+				July 2<sup>nd</sup> 2024
+			</h2>
+			<hr/>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6">
+			<img src="h1.jpg" width="100%" height="100%"/>
+		</div>
+		<div class="col-sm-6">
+			<img src="h2.jpg" width="100%" height="100%"/>
+		</div>
+		<div class="col-sm-6">
+			<img src="h3.jpg" width="100%" height="100%"/>
+		</div>
+		<div class="col-sm-6">
+			<img src="h4.jpg" width="100%" height="100%"/>
+		</div>
+		<div class="col-sm-6">
+			<img src="h5.jpg" width="100%" height="100%"/>
+		</div>
+		<div class="col-sm-6">
+			<img src="h6.jpg" width="100%" height="100%"/>
+		</div>	
+	</div>
+	<div class="row" id="footer"></div>
+</div>
+</body>
+</html>
+<script src="https://trinhansg.github.io/scripts/trinhansg.js"></script>
